@@ -1,0 +1,18 @@
+Números Amigos
+
+Se dice que dos números son amigos si la suma de los divisores de uno es igual al otro.
+Se desea que implemente una función que reciba dos números enteros positivos y decida si los mismos son números amigos o no.
+
+Especificación de la Entrada:
+La primera y única línea de la entrada contendrá dos enteros a y b separados por un espacio.
+
+Especificación de la Salida:
+Debe imprimir una única línea con el texto True si los números son amigos o False de no serlo.
+
+Ejemplo #1:
+	Entrada: 220 284
+	Salida: True
+	
+Ejemplo #2:
+	Entrada: 123 234
+	Salida: False 

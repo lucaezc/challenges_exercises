@@ -1,0 +1,16 @@
+Algoritmo de Compresión
+
+En la empresa la seguridad es muy importante y por esto fue desarrollado un algoritmo de encriptación muy seguro que, como resultado, entrega una cadena de caracteres compuesta únicamente de letras mayúsculas.
+Accidentalmente, se descubrió que con mucha frecuencia la misma letra ocurría varias veces de manera consecutiva, y se observó que se podía aprovechar esta cualidad para comprimir la cadena de texto.
+
+Se pide de su ayuda para implementar un método que, dada una cadena de caracteres como entrada, retorne la misma cadena pero reemplazando caracteres repetidos por el número de apariciones de dicho caracter, seguido del caracter en sí.
+
+Especificación de la Entrada:
+La primera y única línea de la entrada contendrá una cadena de letras en mayúsculas sin ningún tipo de separación.
+
+Especificación de la Salida:
+Debe imprimir una única línea con la correspondiente compresión de los caracteres.
+
+Ejemplo #1:
+	Entrada: ABBBBCFLL
+	Salida: A4BCF2L
