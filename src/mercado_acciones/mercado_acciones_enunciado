@@ -1,0 +1,24 @@
+Mercado de Acciones
+
+El mercado de acciones es muy volátil, por lo que a veces se puede ganar mucho dinero, pero también perderlo.
+La empresa ha desarrollado un software capaz de predecir los precios de las acciones para una empresa dada, durante los próximos N días y retornarlos en forma de un arreglo de números enteros.
+En este arreglo los precios vienen ordenados por día, por lo que en la posición 0 del arreglo se encuentra el precio de las acciones de la empresa en el día 0, igual para el día 1 y así sucesivamente.
+Dado el arreglo con los precios de las acciones para una empresa, implementar una función capaz de calcular la mayor ganancia que es posible obtener al comprar una acción en cualquier día y venderlo en alguno de los días posteriores (¡no puedes vender días antes de haber comprado la acción!).
+
+Especificación de la Entrada:
+La primera línea de la entrada contendrá un entero n que representa la cantidad de predicciones.
+La segunda línea contendrá n enteros separados por espacios que representan el costo de la acción en cada uno de los n días.
+
+Especificación de la Salida:
+Debe imprimir una única línea con la ganancia máxima que se puede obtener.
+
+Ejemplo #1:
+	Entrada: 7
+			 1 2 1 5 2 6 3
+	
+	Salida: 5
+
+	Días	0	1	2	3	4	5	6
+	Precio	1	2	1	5	2	6	3
+	
+	En el ejemplo la máxima ganancia posible es 5, esto se logra comprando en el día 0 o en el día 2 y vendiendo en el día 5.

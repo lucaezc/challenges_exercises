@@ -1,0 +1,23 @@
+Súper Caché
+
+Los desarrolladores de la empresa han creado una forma de acceder rápidamente a elementos recurrentes de una base de datos. Para ello. disponen de una caché que puede almacenar hasta t registros y cuya consulta, de ser necesaria, es inmediata (el tiempo de consulta es insignificante).
+Sin embargo, la base de datos tiene un total de m registros diferentes, que puede ser mucho mayor que t. Por norma de la empresa, cada vez que se consulte un registro que no esté en la caché, el mismo debe almacenarse en la misma, reemplazando potencialmente al registro que tenga más tiempo almacenado.
+
+Se desea que implemente un programa que dado t > 0 y una lista con consultas a la base de datos (hechas una cada segundo), calcule la mayor cantidad de tiempo en que no se realiza cambio alguno a la caché. Puede suponer que las consultas vienen identificadas con un número entero que les es único.
+
+Especificación de la Entrada
+La primera línea de la entrada contendrá un entero t que representa la cantidad de registros que la caché puede almacenar.
+La segunda línea contendrá un entero n que representa la cantidad de consultas realizadas a la base de datos.
+La tercera línea contendrá n enteros separados por espacios que representan el identificador único de cada consulta.
+
+Especificación de la Salida
+Debe imprimir una única línea con la mayor cantidad de tiempo en que no se realiza cambio alguno a la caché.
+
+Ejemplo #1
+	Entrada:
+		3
+		12
+		1 2 3 2 4 2 3 3 4 2 1 2
+	Salida:
+		5
+	El mayor tiempo sin que la caché sufra cambio alguno a la caché.

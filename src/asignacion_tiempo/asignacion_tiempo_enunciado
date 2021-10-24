@@ -1,0 +1,32 @@
+Asignación de Tiempo
+
+En la consultora un cliente desea contratar personal por un total de T horas a la semana (no más, no menos). A su disposición, la empresa cuenta con n empleados, cada uno con un tiempo de Ti horas a la semana disponibles.
+Se desea que implemente un programa que dado T > 0 y los Ti > 0 para cada uno de los n empleados, decida si existe una asignación de los mismos tal que el requerimiento del cliente es satisfecho.
+Suponga además que cada empleado sólo puede dedicar su tiempo íntegro al proyecto (no es posible que un empleado dedique sólo parte de su tiempo).
+
+Especificación de la Entrada:
+La primera línea de la entrada contendrá un entero t que represena el tiempo total de horas a la semana por el cual se desea contratar personal.
+La segunda línea contendrá un entero n que representa la cantidad de empleados disponibles.
+La tercera línea contendrá n enteros separados que representan la duración en tiempo de cada servicio.
+
+Especificación de la Salida:
+Debe imprimir una única línea con el texto True si existe dicha asignación o False en caso contrario.
+
+Ejemplo #1:
+	Entrada:
+	10
+	5
+	1 4 2 5 3
+	Salida:
+	True
+
+	Por ejemplo, podemos asignar los empleados que tienen tiempo 1, 4 y 5.
+	
+Ejemplo #2:
+	10
+	3
+	1 4 7
+	Salida: 
+	False
+	
+	No importa qué grupo de empleados se escoja, no es posible conseguir 10 horas exactas.
