@@ -1,6 +1,6 @@
 Súper Caché
 
-Los desarrolladores de la empresa han creado una forma de acceder rápidamente a elementos recurrentes de una base de datos. Para ello. disponen de una caché que puede almacenar hasta t registros y cuya consulta, de ser necesaria, es inmediata (el tiempo de consulta es insignificante).
+Los desarrolladores de la empresa han creado una forma de acceder rápidamente a elementos recurrentes de una base de datos. Para ello, disponen de una caché que puede almacenar hasta t registros y cuya consulta, de ser necesaria, es inmediata (el tiempo de consulta es insignificante).
 Sin embargo, la base de datos tiene un total de m registros diferentes, que puede ser mucho mayor que t. Por norma de la empresa, cada vez que se consulte un registro que no esté en la caché, el mismo debe almacenarse en la misma, reemplazando potencialmente al registro que tenga más tiempo almacenado.
 
 Se desea que implemente un programa que dado t > 0 y una lista con consultas a la base de datos (hechas una cada segundo), calcule la mayor cantidad de tiempo en que no se realiza cambio alguno a la caché. Puede suponer que las consultas vienen identificadas con un número entero que les es único.
