@@ -5,8 +5,21 @@ import java.util.Scanner;
 public class asignacion_tiempo {
 
 	static Boolean solution(int t, int[] input_arr) {
-		// your code goes here
-		return false;
+		Boolean targetOk = false;
+		for (int i = 0; i < input_arr.length; i++) {
+			int sum = input_arr[i];
+			for (int j = 0; j < input_arr.length; j++) {
+				if (sum == t) {
+					targetOk = true;
+					break;
+				} else {
+					if (i != j) {
+						sum = sum + input_arr[j];	
+					}	
+				}
+			}
+		}
+		return targetOk;
 	}
 	
 	private static final Scanner scanner = new Scanner(System.in);
